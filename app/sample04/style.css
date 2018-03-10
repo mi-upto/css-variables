@@ -1,0 +1,38 @@
+.wrap {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+/* css variables sample
+--------------------------------------- */
+/* global variables
+ * --color
+ */
+:root {
+  --color: blue;
+}
+
+/* scoped variables
+ * --size
+ */
+.btn {
+  --size: 8px;
+  --color: red;
+  color: var(--color);
+  font-size: 1rem;
+  border: 2px solid var(--color);
+  padding: var(--size);
+  background: transparent;
+}
+
+.btn02 {
+  --size: 8px;
+  color: var(--color);
+  font-size: 1rem;
+  padding: var(--size);
+  border: 2px solid var(--color);
+}

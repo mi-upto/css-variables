@@ -9,10 +9,6 @@
 
 /* css variables sample
 --------------------------------------- */
-:root {
-  --font-size: 200px;
-}
-
 .text {
-  font-size: var(--font-size);
+  font-size: var(--font-size, 200px);
 }

@@ -4,7 +4,8 @@
   "description": "css variables sample",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --server 'app' --files '*.html', '*.css'"
+    "start":
+      "browser-sync start --server 'app' --files 'index.html', 'style.css', 'script.js'"
   },
   "author": "",
   "license": "ISC",
