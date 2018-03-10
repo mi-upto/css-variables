@@ -1,0 +1,14 @@
+{
+  "name": "css-variables",
+  "version": "1.0.0",
+  "description": "css variables sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server 'app' --files '*.html', '*.css'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
