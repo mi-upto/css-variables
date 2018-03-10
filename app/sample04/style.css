@@ -9,30 +9,24 @@
 
 /* css variables sample
 --------------------------------------- */
-/* global variables
- * --color
- */
+/* global variables */
 :root {
   --color: blue;
 }
 
-/* scoped variables
- * --size
- */
+/* scoped variables */
 .btn {
-  --size: 8px;
   --color: red;
-  color: var(--color);
+  color: var(--color); /* red */
   font-size: 1rem;
-  border: 2px solid var(--color);
-  padding: var(--size);
+  border: 2px solid var(--color); /* red */
+  padding: 8px;
   background: transparent;
 }
 
 .btn02 {
-  --size: 8px;
-  color: var(--color);
+  color: var(--color); /* blue */
   font-size: 1rem;
-  padding: var(--size);
-  border: 2px solid var(--color);
+  padding: 8px;
+  border: 2px solid var(--color); /* blue */
 }
