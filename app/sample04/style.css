@@ -10,12 +10,13 @@
 /* css variables sample
 --------------------------------------- */
 /* global variables */
+
 :root {
   --color: blue;
 }
 
-/* scoped variables */
-.btn {
+/* local scoped variables */
+.btn01 {
   --color: red;
   color: var(--color); /* red */
   font-size: 1rem;

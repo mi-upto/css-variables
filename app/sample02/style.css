@@ -10,5 +10,5 @@
 /* css variables sample
 --------------------------------------- */
 .text {
-  font-size: var(--font-size, 200px);
+  font-size: var(--font-size, 20px);
 }

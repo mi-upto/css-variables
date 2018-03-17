@@ -1,0 +1,11 @@
+/* css variables sample
+--------------------------------------- */
+:root {
+  --size: 10px;
+}
+
+.box {
+  width: var(--size); /* 10px */
+  height: calc(var(--size) * 2); /* 20px */
+  background-color: red;
+}

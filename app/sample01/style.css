@@ -14,5 +14,5 @@
 }
 
 .text {
-  font-size: var(--font-size);
+  font-size: var(--font-size); /* 200px */
 }

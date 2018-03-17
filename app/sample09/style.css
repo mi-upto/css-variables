@@ -1,0 +1,5 @@
+.box {
+  width: var(--size, 30px);
+  height: var(--size, 30px);
+  background-color: red;
+}

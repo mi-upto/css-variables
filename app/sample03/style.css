@@ -9,7 +9,7 @@
 
 /* css variables sample
 --------------------------------------- */
-.btn {
+.btn01 {
   --color: red;
   color: var(--color, blue); /* red */
   font-size: 1rem;
